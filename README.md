@@ -42,7 +42,7 @@ services:
    ports:
     - '8000:40'
    environment:
-   PMA_HOST: db
+    PMA_HOST: db
     MYSQL_ROOT_PASSWORD: test123
    netwroks:
     - wordpress_net
