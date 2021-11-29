@@ -13,8 +13,10 @@ Install docker service on the server.
 ```
 
 Add the code below to a file called "docker-compose.yaml" and run the command:
-$ docker-compose up -d
 
+```
+$ docker-compose up -d
+```
 ```
 version: '3'
 services:
