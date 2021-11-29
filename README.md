@@ -1,6 +1,6 @@
 #  Wordpress webiste using Docker containers
 
-Its just a documentation to create wordpress website using docker containers. Here, Created a docker composer to provision three containeers ( for: wordpress files, database and phpMyADMIN)
+Its just a documentation to create wordpress website and phpMyADMIN using docker containers. Here, Created a docker composer to provision three containeers ( for: wordpress files, database and phpMyADMIN)
 ### Prerequisites
 
 Install docker service on the server. 
@@ -10,6 +10,13 @@ Install docker service on the server.
 #sudo apt install docker.io
 #service docker restart
 #docker --version
+```
+
+Install docomper composer on the server:
+
+```
+sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 Add the code below to a file called "docker-compose.yaml" and run the command:
