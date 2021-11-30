@@ -1,4 +1,4 @@
-#  Wordpress webiste using Docker containers
+#  Wordpress website using Docker containers
 
 Its just a documentation to create wordpress website and phpMyADMIN using docker containers. Here, Created a docker composer to provision three containeers ( for: wordpress files, database and phpMyADMIN)
 ### Prerequisites
